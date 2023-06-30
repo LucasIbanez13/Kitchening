@@ -1,0 +1,88 @@
+/* HEADER */
+.home__header{
+    text-align: center;
+}
+
+.home__header__img--logo{
+    width: 180px;
+    margin: 15px auto 30px;
+}
+.home__header__img--logo img {
+    width: 100%;
+    border-radius: 50%;
+    border: solid 2px var(--colorGris);
+}
+
+.home__header__a--bars {
+    background-color: var(--colorGris);
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 30px;
+    display: inline-block;
+    font-size: 2.5rem;
+    border-radius: 5px;
+}
+
+.home__header--nav--menu ul li {
+    background-color: var(--colorGris);
+    margin-top: 4px;
+}
+.home__header__nav--menu ul li:last-child{
+    margin-bottom: 0;
+}
+
+/* MAIN */
+.home__main--banner {
+    display: none;
+}
+
+.home__main__section--productos {
+    margin-top: 30px;
+}
+
+.home__main__section--products-box{
+    position: relative;
+    margin-bottom: 20px;
+}
+.home__main__section--productos-images{
+    width: 100%;
+}
+.home__main__section--productos-stickers {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+}
+.home__main__section--products-box a{
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+.home__main__section--productos-title{
+    margin: 20px 0;
+    font-size: 1.2rem;
+}
+.home__main__section--productos-button{
+    display: inline-block;
+    padding: 10px;
+    margin: 20px 0;
+    background-color: var(--colorGris);
+}
+
+/* FOOTER*/
+.home__footer nav ul li{
+    text-align: center;
+    width: 100%;
+    background-color: var(--colorRojo);
+    margin-top: 3px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+.home__footer__nav--menu ul li:last-child{
+    margin-bottom: 0;
+}
